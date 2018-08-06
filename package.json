@@ -1,0 +1,31 @@
+{
+  "name": "spring-data-rest-json-schema-to-typescript-definitions",
+  "version": "0.1.0",
+  "description": "npm package that allows you to generate TypeScript definitions from JSON Schema metadata supplied by Spring Data REST endpoints.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-model": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BjoernKW/spring-data-rest-json-schema-to-typescript-definitions.git"
+  },
+  "keywords": [
+    "typescript",
+    "json-schema",
+    "spring-data-rest",
+    "spring",
+    "spring-data"
+  ],
+  "author": "Björn Wilmsmann",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/BjoernKW/spring-data-rest-json-schema-to-typescript-definitions/issues"
+  },
+  "homepage": "https://github.com/BjoernKW/spring-data-rest-json-schema-to-typescript-definitions#readme",
+  "dependencies": {
+    "json-schema-to-typescript": "^5.5.0"
+  }
+}
