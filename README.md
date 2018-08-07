@@ -40,10 +40,14 @@ Now you can generate TypeScript definitions from your [Spring Data REST](https:/
 * [Node.js](https://nodejs.org/en/)
 * [npm](https://www.npmjs.com/)
 
+## Authors
+
+* **[Björn Wilmsmann](https://bjoernkw.com)**
+
 ## License
 
 [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
-## Authors
+## Acknowledgements
 
-* **[Björn Wilmsmann](https://bjoernkw.com)**
+Thanks to [Boris Cherny](https://github.com/bcherny), whose [json-schema-to-typescript](https://github.com/bcherny/json-schema-to-typescript) I could draw upon for creating this package.
