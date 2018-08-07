@@ -33,9 +33,12 @@ function generate() {
 }
 
 function get(path: string, accept: string, callback: Function) {
-  const urlComponents = baseURL.match(/^(\S.+?)\/\/(\S.+?):(\d{1,5})/);
+  const urlComponents = baseURL.match(/^(\S.+?)\/\/(\S.+?):(\d{1,5})(.*)/);
   
-  if (urlComponents && urlComponents.length === 4) {
+  if (urlComponents && urlComponents.length >= 4) {
+    if (urlComponents.length === 5) {
+      path = urlComponents[4] + path
+    }
     const options = {
       protocol: urlComponents[1],
       hostname: urlComponents[2],

@@ -50,4 +50,4 @@ Now you can generate TypeScript definitions from your [Spring Data REST](https:/
 
 ## Acknowledgements
 
-Thanks to [Boris Cherny](https://github.com/bcherny), whose [json-schema-to-typescript](https://github.com/bcherny/json-schema-to-typescript) package I could draw upon for creating this package.
+Thanks to [Boris Cherny](https://github.com/bcherny) whose [json-schema-to-typescript](https://github.com/bcherny/json-schema-to-typescript) package I could draw upon for creating this package.
