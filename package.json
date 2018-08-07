@@ -1,6 +1,6 @@
 {
   "name": "spring-data-rest-json-schema-to-typescript-definitions",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "npm package that allows you to generate TypeScript definitions from JSON Schema metadata supplied by Spring Data REST endpoints.",
   "main": "dist/index.js",
   "scripts": {
